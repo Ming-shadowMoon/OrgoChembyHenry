@@ -1,0 +1,221 @@
+/* Header styling for chapter title */
+.header {
+    background-color: #3f51b5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 2em;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #3f51b5;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    color: #3f51b5;
+}
+
+.back-link {
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    color: #0056b3;
+}
+
+/* Main content styling */
+.content {
+    flex: 1;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.content section {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.content h2 {
+    font-size: 1.75em;
+    color: #3f51b5;
+    margin-bottom: 10px;
+}
+.content h3{
+    font-size: 1.5em;
+    color: red;
+    margin-bottom:10px;
+}
+
+.content p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #1b1a1a;
+    margin-bottom: 10px;
+    margin:auto;
+    display: flex;
+}
+.special-content p{
+    font-size: 1em;
+    line-height: 1.6;
+    color: #1b1a1a;
+    margin-bottom: 10px;
+    margin:auto;
+    display: flex;
+    float: left;
+}
+.content b{
+    display:flex;
+    font-size: 1em;
+    margin-left: 1px;
+    line-height: 1.6;
+}
+
+.content h3{
+    font-size: 1.5em;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Image styling for content sections */
+.content-image {
+    max-width: 35%;
+    height: 20%;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.leftcontent-image{
+    max-width: 3%;
+    height:80px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-right:30px;
+    float:left;
+}
+
+.incolumn-image{
+    Width: 80%;
+    height: auto;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+#left-column, #center-column, #right-column{
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    padding: 5px;
+    margin: 0 10px; /* Space between columns */
+    width: 25%; /* Adjust width as needed */
+}
+.horizontal-list {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-between; 
+    list-style: decimal; 
+    padding: 0; 
+    margin: 20px 0; 
+}
+
+.horizontal-list li {
+    flex: 1; 
+    margin: 0 10px; 
+    text-align: center; 
+}
+
+.horizontal-list li img {
+    max-width: 100%; 
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.cut {
+    width: 210px;
+    height: auto;
+    overflow: hidden;
+}
+.content li b {
+    display: inline;
+}
+/* Container for list items with text and image side by side */
+.list-item {
+    display: inline-flex; /* Inline alignment of text and image */
+    align-items: flex-start; /* Align items to the top */
+    gap: 100px; /* Space between text and image */
+    margin-bottom: 15px; /* Spacing between list items */
+    width: auto; /* Ensure it wraps content naturally */
+}
+
+/* Styling for images in the list */
+.list-image {
+    max-width: 375px; /* Adjust size as needed */
+    height: auto;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+/* Text section of list items */
+.list-item span {
+    font-size: 1em;
+    line-height: 1.6;
+}
+/* Container for cropping the image */
+.image-crop-container {
+    width: 375px; /* Adjust to desired visible width */
+    height: auto; /* Adjust to desired visible height */
+    overflow: hidden; /* Hides the cropped portion */
+    position: relative; /* Ensures proper positioning of child elements */
+    display: inline-block; /* Keeps the image aligned next to the list */
+}
+
+/* Image within the crop container */
+.cropped-image {
+    object-fit: cover; /* Ensures image fits the container */
+    object-position: -28px 0px; /* Crops 50px from the left, adjust as needed */
+    width: auto; /* Ensures the image retains its aspect ratio */
+    height: 100%; /* Matches the height of the container */
+}
+
+
+

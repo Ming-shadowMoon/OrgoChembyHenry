@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice - Chapter 2</title>
+    <link rel="stylesheet" href="PracticeStyles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Practice Questions - Chapter 2</h1>
+    </header>
+    <div class="container">
+        <!-- Sidebar for topic navigation within the chapter -->
+        <aside class="sidebar">
+            <h2>Chapter</h2>
+            <ul>
+                <li><a href="SeniorProjectWebsite.html">Back to Homepage</a></li>
+                <li><a href="Chapter2.html">Back to Chapter 2</a></li>
+            </ul>
+            <a href="SeniorProjectWebsite.html" class="back-link">Back to Contents</a>
+        </aside>
+
+    <div class="container">
+        <!-- Practice Section -->
+        <section class="practice-section">
+            <h2>Question 1</h2>
+            <img src="chapter2-practice-resonance1.jpg" class="container-image">
+            <p>Could resonance structures of this molecule be drawn?</p>
+            <ul>
+                <li><button class="choice" data-status="correct">Yes</button></li>
+                <li><button class="choice" data-status="wrong">No</button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        <section class="practice-section">
+            <h2>Question 2</h2>
+            <img src="chapter2-practice-resonance2.png" class="container-image">
+            <p>Could resonance structures of this molecule be drawn?</p>
+            <ul>
+                <li><button class="choice" data-status="correct">Yes</button></li>
+                <li><button class="choice" data-status="wrong">No</button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        <section class="practice-section">
+            <h2>Question 3</h2>
+            <img src="chapter2-practice-resonance3.jpg" class="container-image">
+            <p>Could resonance structures of this molecule be drawn?</p>
+            <ul>
+                <li><button class="choice" data-status="wrong">Yes</button></li>
+                <li><button class="choice" data-status="correct">No</button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        <section class="practice-section">
+            <h2>Question 4</h2>
+            <img src="chapter2-practice-resonance4.png" class="container-image">
+            <p>Could resonance structures of this molecule be drawn?</p>
+            <ul>
+                <li><button class="choice" data-status="wrong">Yes</button></li>
+                <li><button class="choice" data-status="correct">No</button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        <section class="practice-section">
+            <h2>Question 5</h2>
+            <img src="chapter2-practice-resonance5.png" class="container-image">
+            <p>Is the arrow pushing shown give the correct resonance?</p>
+            <ul>
+                <li><button class="choice" data-status="correct">Yes</button></li>
+                <li><button class="choice" data-status="wrong">No</button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        <section class="practice-section">
+            <h2>Question 6</h2>
+            <img src="chapter2-practice-resonance6.png" class="container-image">
+            <p>How many resonance does the molecule have? (including itself)</p>
+            <ul>
+                <li><button class="choice" data-status="wrong">4</li>
+                <li><button class="choice" data-status="correct">5</button></li>
+                <li><button class="choice" data-status="wrong">6</button></li>
+                <li><button class="choice" data-status="wrong">8</button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        
+
+        
+        <section class="practice-section">
+            <h2>Question 7</h2>
+            <img src="chapter2-practice-resonance7.png" class="container-image">
+            <p>Which resonance is the major contributor for the cyanate ion?</p>
+            <ul>
+                <li><button class="choice" data-status="wrong">First</li>
+                <li><button class="choice" data-status="wrong">Second</button></li>
+                <li><button class="choice" data-status="correct">Third</button></li>
+                <li><button class="choice" data-status="wrong">There is no major contributor for this molecule</button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        <section class="practice-section">
+            <h2>Question 8</h2>
+            <img src="chapter2-practice-hybridization.png" class="container-image">
+            <p>What is the number of sp-hybridized oxygens?</p>
+            <input type="text" id="question8" placeholder="Your answer">
+            <button class="check-answer-btn" onclick="checkFillBlank('question8', '0')">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        <section class="practice-section">
+            <h2>Question 9</h2>
+            <img src="chapter2-practice-hybridization.png" class="container-image">
+            <p>What is the number of sp<sup>2</sup>-hybridized oxygens?</p>
+            <input type="text" id="question9" placeholder="Your answer">
+            <button class="check-answer-btn" onclick="checkFillBlank('question9', '6')">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        <section class="practice-section">
+            <h2>Question 10</h2>
+            <img src="chapter2-practice-hybridization.png" class="container-image">
+            <p>What is the number of sp<sup>3</sup>-hybridized oxygens?</p>
+            <input type="text" id="question10" placeholder="Your answer">
+            <button class="check-answer-btn" onclick="checkFillBlank('question10', '5')">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+    </div>
+
+    <script src="PracticeJS.js"></script>
+</body>
+</html>

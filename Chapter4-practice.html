@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice - Chapter 4</title>
+    <link rel="stylesheet" href="PracticeStyles.css">
+    <link rel="stylesheet" href="matchingSytle.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Practice Questions - Chapter 4</h1>
+    </header>
+    <div class="container">
+        <!-- Sidebar for topic navigation within the chapter -->
+        <aside class="sidebar">
+            <h2>Chapter</h2>
+            <ul>
+                <li><a href="SeniorProjectWebsite.html">Back to Homepage</a></li>
+                <li><a href="Chapter4.html">Back to Chapter 4</a></li>
+            </ul>
+            <a href="SeniorProjectWebsite.html" class="back-link">Back to Contents</a>
+        </aside>
+        <div class="matching-game">
+            <h2>Matching Game: Lewis Structures and Newman Projections</h2>
+            <p>Select the matching Lewis structure for the given Newman projection.</p>
+            <div class="game-grid">
+                <!-- Newman Projections -->
+                <div class="card newman" data-match="1">
+                    <img src="chapter4-practice-newman1.png" alt="Newman Projection 1">
+                </div>
+                <div class="card newman" data-match="4">
+                    <img src="chapter4-practice-newman4.png" alt="Newman Projection 4">
+                </div>
+                <div class="card newman" data-match="2">
+                    <img src="chapter4-practice-newman2.png" alt="Newman Projection 2">
+                </div>
+                <div class="card newman" data-match="3">
+                    <img src="chapter4-practice-newman3.png" alt="Newman Projection 3">
+                </div>
+                
+        
+                <!-- Lewis Structures -->
+                <div class="card lewis" data-match="1">
+                    <img src="chapter4-practice-lewis1.png" alt="Lewis Structure 1">
+                </div>
+                <div class="card lewis" data-match="3">
+                    <img src="chapter4-practice-lewis3.png" alt="Lewis Structure 3">
+                </div>
+                <div class="card lewis" data-match="4">
+                    <img src="chapter4-practice-lewis4.png" alt="Lewis Structure 4">
+                </div>
+                <div class="card lewis" data-match="2">
+                    <img src="chapter4-practice-lewis2.png" alt="Lewis Structure 2">
+                </div>
+                
+                
+            </div>
+            <p class="feedback"></p>
+        </div>
+        
+        
+    <div class="container">
+        <!-- Practice Section -->
+        <section class="practice-section">
+            <h2>Question 1</h2>
+            <img src="chapter4-practice-functionalGroup.png" class="container-image">
+            <p>Which functional group is not in the molecule.</p>
+            <ul>
+                <li><button class="choice" data-status="wrong">Amine</button></li>
+                <li><button class="choice" data-status="wrong">Ether</button></li>
+                <li><button class="choice" data-status="correct">Ethel</button></li>
+                <li><button class="choice" data-status="wrong">Aromatic (Arene)</button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        <section class="practice-section">
+            <h2>Question 2</h2>
+            <p>What kind of ring experience the most ring strain?</p>
+            <ul>
+                <li><button class="choice" data-status="wrong">Cyclobutanes</button></li>
+                <li><button class="choice" data-status="correct">Cyclopropanes</button></li>
+                <li><button class="choice" data-status="wrong">Cyclopentanes</button></li>
+                <li><button class="choice" data-status="wrong">Cyclohexanes</button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        <section class="practice-section">
+            <h2>Question 3</h2>
+            <p>Which staggered interaction has the strongest Gauche interaction?</p>
+            <ul>
+                <li><button class="choice" data-status="wrong">H-H</button></li>
+                <li><button class="choice" data-status="wrong">CH<sub>3</sub>-H</button></li>
+                <li><button class="choice" data-status="wrong">CH<sub>3</sub>-CH<sub>3</sub></button></li>
+                <li><button class="choice" data-status="correct">CH<sub>2</sub>CH<sub>3</sub>-CH<sub>3</sub></button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+            <section class="practice-section">
+                <h2>Question 4</h2>
+                <p>How many constitutional isomers does C<sub>6</sub>H<sub>14</sub> have?</p>
+                <ul>
+                    <li><button class="choice" data-status="wrong">4</button></li>
+                    <li><button class="choice" data-status="correct">5</button></li>
+                    <li><button class="choice" data-status="wrong">3</button></li>
+                    <li><button class="choice" data-status="wrong">6</button></li>
+                </ul>
+                <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+                <span class="feedback"></span>
+    </div>
+
+    <script src="PracticeJS.js"></script>
+    <script src="matchJS.js"></script>
+</body>
+</html>

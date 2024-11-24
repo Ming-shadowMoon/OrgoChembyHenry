@@ -1,0 +1,48 @@
+.matching-game {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.game-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    background-color: #f9f9f9;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #e0f7fa;
+}
+.card.selected{
+    transform: scale(1.05);
+    background-color: #e0f7fa;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card.hidden {
+    visibility: hidden;
+}
+
+.feedback {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #d32f2f; /* Feedback color */
+}

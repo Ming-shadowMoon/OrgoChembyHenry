@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice - Chapter 1</title>
+    <link rel="stylesheet" href="PracticeStyles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Practice Questions - Chapter 1</h1>
+    </header>
+    <div class="container">
+        <!-- Sidebar for topic navigation within the chapter -->
+        <aside class="sidebar">
+            <h2>Chapter</h2>
+            <ul>
+                <li><a href="SeniorProjectWebsite.html">Back to Homepage</a></li>
+                <li><a href="Chapter1.html">Back to Chapter 1</a></li>
+            </ul>
+            <a href="SeniorProjectWebsite.html" class="back-link">Back to Contents</a>
+        </aside>
+
+    <div class="container">
+        <!-- Practice Section -->
+        <section class="practice-section">
+            <h2>Question 1</h2>
+            <p>What is the valency of Carbon?</p>
+            <ul>
+                <li><button class="choice" data-status="wrong">3</button></li>
+                <li><button class="choice" data-status="correct">4</button></li>
+                <li><button class="choice" data-status="wrong">2</button></li>
+                <li><button class="choice" data-status="wrong">5</button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        <section class="practice-section">
+            <h2>Question 2</h2>
+            <img src="chapter1-practice-FC.png" class="container-image">
+            <p>What is the formal charge of Oxygen 1?</p>
+            <ul>
+                <li><button class="choice" data-status="wrong">-2</button></li>
+                <li><button class="choice" data-status="wrong">-1</button></li>
+                <li><button class="choice" data-status="wrong">1</button></li>
+                <li><button class="choice" data-status="correct">0</button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        <section class="practice-section">
+            <h2>Question 3</h2>
+            <img src="chapter1-practice-FC.png" class="container-image">
+            <p>What is the formal charge of Oxygen 4?</p>
+            <ul>
+                <li><button class="choice" data-status="wrong">-2</button></li>
+                <li><button class="choice" data-status="correct">-1</button></li>
+                <li><button class="choice" data-status="wrong">1</button></li>
+                <li><button class="choice" data-status="wrong">0</button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        <section class="practice-section">
+            <h2>Question 4</h2>
+            <img src="chapter1-practice-BondLine.jpg" class="container-image">
+            <p>What is the chemical formula of the molecule?</p>
+            <ul>
+                <li><button class="choice" data-status="correct">C<sub>4</sub>H<sub>9</sub>NO<sub>2</sub></button></li>
+                <li><button class="choice" data-status="wrong">C<sub>8</sub>H<sub>17</sub>NO<sub>2</sub></button></li>
+                <li><button class="choice" data-status="wrong">C<sub>6</sub>H<sub>13</sub>NO<sub>2</sub></button></li>
+                <li><button class="choice" data-status="wrong">C<sub>5</sub>H<sub>11</sub>NO<sub>2</sub></button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        <section class="practice-section">
+            <h2>Question 5</h2>
+            <img src="chapter1-practice-BondLine2.png" class="container-image">
+            <p>What is the chemical formula of the molecule?</p>
+            <ul>
+                <li><button class="choice" data-status="wrong">C<sub>3</sub>H<sub>7</sub>NO<sub>2</sub></button></li>
+                <li><button class="choice" data-status="wrong">C<sub>4</sub>H<sub>9</sub>NO<sub>2</sub></button></li>
+                <li><button class="choice" data-status="correct">C<sub>2</sub>H<sub>5</sub>NO<sub>2</sub></button></li>
+                <li><button class="choice" data-status="wrong">C<sub>5</sub>H<sub>11</sub>N<sub>2</sub>O</button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        <section class="practice-section">
+            <h2>Question 6</h2>
+            <img src="chapter1-practice-wedgeDash.jpeg" class="container-image">
+            <p>Which molecule has the alcohol group that points out of the page?</p>
+            <ul>
+                <li><button class="choice" data-status="wrong">The one on the right</li>
+                <li><button class="choice" data-status="correct">The one on the left</button></li>
+                <li><button class="choice" data-status="wrong">Both</button></li>
+                <li><button class="choice" data-status="wrong">None</button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        
+
+        <section class="practice-section">
+            <h2>Question 7</h2>
+            <img src="chapter1-practice-methane.png" class="container-image">
+            <p>What is the hybridization of the carbon atom in methane (CH₄)?</p>
+            <input type="text" id="question7" placeholder="Your answer">
+            <button class="check-answer-btn" onclick="checkFillBlank('question7', 'sp3')">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+        <section class="practice-section">
+            <h2>Question 8</h2>
+            <img src="chapter1-practice-sigm&pi.png" class="container-image">
+            <p>How many &sigma; bonds and &pi; bonds are in the molecule?</p>
+            <ul>
+                <li><button class="choice" data-status="wrong">9 &pi; bonds</li>
+                <li><button class="choice" data-status="wrong">7 &sigma; bonds and 2 &pi; bonds</button></li>
+                <li><button class="choice" data-status="wrong">9 &sigma; bonds</button></li>
+                <li><button class="choice" data-status="correct">6 &sigma; bonds and 3 &pi; bonds</button></li>
+            </ul>
+            <button class="check-answer-btn" onclick="checkMultipleChoice(this)">Check Answer</button>
+            <span class="feedback"></span>
+        </section>
+    </div>
+
+    <script src="PracticeJS.js"></script>
+</body>
+</html>

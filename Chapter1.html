@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1: Molecular Structure and Bonding</title>
+    <link rel="stylesheet" href="chapterStyle.css">
+</head>
+<body>
+    <!-- Header with chapter title -->
+    <header class="header">
+        <h1>Chapter 1: Molecular Structure and Bonding</h1>
+    </header>
+
+    <div class="container">
+        <!-- Sidebar for topic navigation within the chapter -->
+        <aside class="sidebar">
+            <h2>Topics</h2>
+            <ul>
+                <li><a href="#topic1">Topic 1: Lewis Structure</a></li>
+                <li><a href="#topic2">Topic 2: Formal Charge</a></li>
+                <li><a href="#topic3">Topic 3: Structure Representations</a></li>
+                <li><a href="#topic4">Topic 4: VSEPR Theory</a></li>
+                <li><a href="#topic5">Topic 5: Valence Bond Theory and hybridization</a></li>
+            </ul>
+            <a href="SeniorProjectWebsite.html" class="back-link">Back to Contents</a>
+        </aside>
+
+        <!-- Main content area with topics and images -->
+        <main class="content">
+            <!-- Topic 1 -->
+            <section id="topic1">
+                <h2>Lewis Structure</h2>
+                <p>Lewis Structures show the bonding between atoms and unpaired electrons.
+                    <ul>
+                        <li>Bonds are lines; each line is a bond.</li>
+                        <li>Dots are unpaired electrons.</li>
+                        <li>Structures are drawn to satisfy octet rule (if possible).</li>
+                    </ul>
+                </p>
+                <img src="lewisStructure.jpg" alt="Atomic Structure Diagram" class="content-image">
+                <p>Atoms have a tendency to form a certain number of bonds, this is refered to <b>Valency</b>.</p>
+                <img src="valency.jpg" alt="Valency Diagram" class="content-image">
+                </section>
+                <section id="topic2">
+                <h2>Formal Charge</h2>
+                <p>Formal Charge is the charge on an atom if bonds are prefectly covalent. Formula to find formal charge is:</p>
+                <p><b>Formal Charge = # of valence electrons - (# of sticks + # of dots).</b></p>
+                <ul>
+                    <li>Sum of the Formal Charges = overall charge</li>
+                    <li>Formal Charges are often on atoms that <u>Don't</u> observe standard valency.</li>
+                </ul>
+                <img src="formalCharge.jpg" alt="Formal Charge Diagram" class="content-image">
+                </section>
+                <section id="topic3">
+                <h2>Structure Representations</h2>
+                <p>Molecular structures are often represented in 3 ways:</p>
+                <ol class="horizontal-list">
+                 <li id="left-column">
+                    <div>
+                        <p><b>Kekule:</b> All hydrogens (H) and bonds are shown.</p>
+                        <img src="kekule.png" alt="Kekule Structure" class="incolumn-image">
+                    </div>
+                </li>
+                <li id="center-column">
+                    <div>
+                        <p><b>Condensed:</b> In condensed notation, Hydrogens (H) are grouped together.</p>
+                        <img src="condensed.png" alt="Condensed Structure" >
+                    </div>
+                </li>
+                <li id="right-column">
+                    <div>
+                        <p><b>Bond-line:</b> In bond-line notation, Carbons and Hydrogens are not directly shown.</p>
+                        <ul>
+                            <li>Carbons are at vertices and ends.</li>
+                            <li>Hydrogens are implicit.</li>
+                        </ul>
+                        <img src="bond-line.png" alt="Bond-line Structure" >
+                    </div>
+                </li>
+            </ol>  
+            </section>   
+            <section id="topic4">
+            <h2>VSEPR Theory</h2> 
+            <p>VSEPR theory predict the 3D shapes of molecules. With VSEPR theory:</p>
+            <ul>
+                <li>Electron domains repel.</li>
+                <li><b>Wedge-dash</b> notation is used to show groups that point out of the page (wedges) and into the page (dashes).</li>
+            </ul>    
+            <img src="wedge-dash.png" alt="Wedge-dash Structure" class="content-image">
+            </section>
+
+            <section id="topic5">
+                <h2>Valence Bond Theory and hybridization</h2>
+                <p>Electrons are in atomic orbitals</p>
+                <img src="atomic-orbitals.png" alt="actomic orbitals" width="250px" height="90px">
+                <p>Valence Bond Theory states that bonds form when atomic orbitals with unpaired electrons overlap.</p>
+                <img src="s&s-bonding.jpg" alt="S orbitals Bonding" width="300px" height="100px">
+                <p>Atomic orbitals can be mixed to genrate hybrid orbitals. Hybridization is related to electron geometry</p>
+                <img src="hybridization.jpg" alt="hybridiation" width="300px" height="150px">
+                <p>The overlap of S orbitals and/or hybrid orbitals yeilds &sigma; bonds. The overlap of P orbitals yeilds &pi; bonds.</p>
+                <img src="sigma&pi.png" alt="Sigma and Pi Bonds"width="300px" height="150px">
+            </section>
+        </main>
+    </div>
+
+    <script src="chapterScripts.js"></script>
+</body>
+</html>

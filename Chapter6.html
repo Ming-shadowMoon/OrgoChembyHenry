@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6: Stereochemistry and Chirality</title>
+    <link rel="stylesheet" href="chapterStyle.css">
+</head>
+<body>
+    <!-- Header with chapter title -->
+    <header class="header">
+        <h1>Chapter 6: Stereochemistry and Chirality</h1>
+    </header>
+
+    <div class="container">
+        <!-- Sidebar for topic navigation within the chapter -->
+        <aside class="sidebar">
+            <h2>Topics</h2>
+            <ul>
+                <li><a href="#topic1">Topic 1: Chiral Molecules and Stereocenters</a></li>
+                <li><a href="#topic2">Topic 2: Absolue Configuration</a></li>
+                <li><a href="#topic3">Topic 3: Configurational isomers: Enantiomers & Diastereomers</a></li>
+                <li><a href="#topic4">Topic 4: Meso Compound</a></li>
+                <li><a href="#topic5">Topic 5: Physical Properties</a></li>
+            </ul>
+            <a href="SeniorProjectWebsite.html" class="back-link">Back to Contents</a>
+        </aside>
+
+        <!-- Main content area with topics and images -->
+        <main class="content">
+            <!-- Topic 1 -->
+            <section id="topic1">
+                <h2>Chiral Molecules and Stereocenters</h2>
+                <p>Chiral moleculesd have non-superimposable mirror images.</p>
+                <p>Non-superimposable mirror objects mean that the images are mirrored but cannot be stacked together.</p>
+                <p>The best example of a non-superimposable images are your hands that they are mirror image but when you cannot stack them.</p>
+                <img src="chiralObjects.png" class="content-image" width="20%"><img src="chiralMolecules.png" class="content-image" width="20%">
+                <p>Stereocenters (also called chiral center) are often often atoms that are attached to 4 different groups. But this is not always true</p>
+                <p>
+                    <ul>
+                        <li>If a molecule is chiral, molecule contains at least 1 stereocenters</li>
+                        <li>If a molecule has no stereocenters, molecule is achiral</li>
+                    </ul>
+                </p>
+                <img src="stereocenter.png" class="content-image" width="20%">
+                </section>
+                <section id="topic2">
+                    <h2>Absolute Configuration</h2>
+                    <p>Absolute configuration describe the spatial arrangement around a stereocenter</p>
+                    <p>The arrangement is represented by <b>S&R</b> designation</p>
+                    <p>Assigning R&S:</p>
+                    <ol>
+                        <li>
+                            <div class="list-item">
+                                <span>Determining Priority: 
+                                    <ul>
+                                        <li>Look at first atom of group bonded to stereocenter. Atoms with larger Z have higher priority. If Z is the same, then the heavier isotope has higher priority.</li>
+                                        <li>If atoms are the same, look along the chain until you find a point of difference</li>
+                                    </ul>
+                                </span>
+                                <img src="priorityWithZ.png" class="list-image"> <img src="priorityWithDifference.JPG" class="list-image">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-item">
+                                <span>Put the group with the lowest priority in the back 
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-item">
+                                <span>Order the other groups by increasing priority
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-item">
+                                <span>If priority goes clockwise, then it is R configuration. If the priority goes counterclockwise, then it is S configuration.</span>
+                                <img src="R&Sconfiguration.png" class="list-image">
+                            </div>
+                        </li>
+                    </ol>
+                </section>
+                <section id="topic3">
+                    <h2>Configurational isomers: Enantiomers & Diastereomers</h2>
+                    <p>Enantiomers are stereoisomers that <b>are</b> mirror images.</p>
+                    <p>Diastereomers are stereoisomers that <b>are not</b> mirror images</p>
+                    <p>Two ways to determine relationships:
+                        <ul>
+                            <li>Compare R&S configuration</li>
+                            <li>Compare wedges and dashes</li>
+                        </ul>
+                    </p>
+                    <img src="enantiomers&diastereomers.png" class="content-image" width="25%">
+                </section>
+                 
+            <section id="topic4">
+                <h2>Meso Compound</h2>
+                <p>Meso compounds contain stereocenters but they are achiral.</p>
+                <p>Meso compounds contain an internal plane of symmetry.</p>
+                <img src="mesoCompound.png" class="content-image" width="20%">
+                <p>If any conformer is achiral, the molecule is achiral.</p>
+                <p>In chairs, look at flat ring to determine symmetry.</p>
+            </section>
+            <section id="topic5">
+                <h2>Physical Properties of stereoisomers</h2>
+                <p>Enantiomers have the same physical properties.</p>
+                <p>Diastereomers have different physical properties.</p>
+                <img src="physicalProperties.jpeg" class="content-image" width="20%">
+            </section>
+            <section id="topic6">
+                <h2>Alkene and Diastereomers</h2>
+                <p>Alkenes can conain stereocenters.</p>
+                <p>Arrangement of atoms around stereocenter is described by E/Z or Cis/Trans</p>
+                <img src="alkene-stereocenters.png" class="content-image" width="10%"><img src="alkene-EZ.gif" class="content-image" width="20%">
+                
+            </section>
+        </main>
+    </div>
+
+    <script src="chapterScripts.js"></script>
+</body>
+</html>
